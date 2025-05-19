@@ -15,6 +15,8 @@ class Turtle {
   } 
 
   void render() {
+    println("(****************");
+    println(todo);
     stroke(0, 175);
     for (int i = 0; i < todo.length(); i++) {
       char c = todo.charAt(i);
